@@ -5,7 +5,15 @@
   "repository": "https://github.com/CarlosAQuadros/nlw-4.git",
   "author": "Carlos Quadros <carlosalbertoquadros@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    "dev":"ts-node-dev --transpile-only --ignore-watch node_modules server.ts"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1",
+    "typerscript": "^0.2.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6"
   }
 }
